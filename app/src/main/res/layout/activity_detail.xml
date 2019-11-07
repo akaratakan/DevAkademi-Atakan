@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.devakademi2019.common.DetailActivity">
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/detailPic_ic"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:src="@drawable/sahibinden_image"
+            android:background="@android:color/black"
+            android:layout_height="175dp" />
+        <ImageView
+            android:id="@+id/detailSpecialOffer_iv"
+            android:layout_width="75dp"
+            android:layout_gravity="right"
+            android:src="@drawable/special"
+            android:layout_height="75dp" />
+
+
+
+    </FrameLayout>
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:padding="12dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/detailAdvertPrice_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:text="152.700"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="4dp"
+                    android:textSize="16dp"
+                    android:text="₺"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/town_detail_tv"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bostancı"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text=" / "/>
+                <TextView
+                    android:id="@+id/city_detail_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="İstanbul"/>
+            </LinearLayout>
+
+
+
+                <TextView
+                    android:id="@+id/advertDetailTitle_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:text="asdasdasfmakmf akfm aksfkas fas kfaskf askf asl fasklf alkf asf asf asa ksflasj fka sfjkasjfaf askfj alfkj aksfjask jaks jfas"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:background="@color/color_of_sahibinden"
+                android:layout_height="2dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="12dp"
+                    android:textSize="18dp"
+                    android:text="Description"/>
+                <TextView
+                    android:id="@+id/advertDetailDescription_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:text="asdasdasfmakmf akfm aksfkas fas kfaskf askf asl fasklf alkf asf asf asa ksflasj fka sfjkasjfaf askfj alfkj aksfjask jaks jfas"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
